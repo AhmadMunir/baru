@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset ="utf-8">
+		<meta http-equiv="X_UA_Compitable" content="IE-edge">
+		<meta name="viewport" content="widht=device-width, initial-scale=1">
+		<title> Membuat Tombol </title>
+		<!-- Bootsrap --!>
+		<link-href="css/bootsrap.min.css" rel="stylesheet">
+</head>
+<body>
+		<!-- Standart Button --!>
+		<button type="button" class="btn btn-default">Default</button>
+		<!-- Provides extra visual weight and identifies the primary action in a set of buttons --!>
+		<button type="button" class="btn btn-primary">Primary</button> 
+		<!-- Indicates a successful or positive action --!>
+		<button type="button" class="btn btn-succes">Succes</button>
+		<!-- Contextual button for informational alert messages --!>
+		<button type="button" class="btn btn-info">Info</button>
+		<!-- Indicates caution should be take with this action --!>
+		<button type="button" class="btn btn-warning">Warning</button>
+		<!-- Indicates dangerous or potentially negative action --!>
+		<button type="button" class="btn btn-danger">Danger</button>
+		<!-- Deemphasize a button by making it look like a link while maintaining button behavior --!>
+		<button type="button" class="btn btn-link">Link</button>
+
+<!-- JQuery -->
+<script src="js/jquery.min.js"></script>
+<!-- Bootsrap JS -->
+<script src"js/bootsrap.min.js"></script>
+</body>
