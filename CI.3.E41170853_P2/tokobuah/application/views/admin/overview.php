@@ -11,14 +11,17 @@
 
   <title>SB Admin - Dashboard</title>
 
-  <!-- Custom fonts for this template-->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- Bootstrap core CSS-->
+<link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
 
-  <!-- Page level plugin CSS-->
-  <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+<!-- Custom fonts for this template-->
+<link href="<?php echo base_url('assets/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
 
-  <!-- Custom styles for this template-->
-  <link href="css/sb-admin.css" rel="stylesheet">
+<!-- Page level plugin CSS-->
+<link href="<?php echo base_url('assets/datatables/dataTables.bootstrap4.css') ?>" rel="stylesheet">
+
+<!-- Custom styles for this template-->
+<link href="<?php echo base_url('css/sb-admin.css') ?>" rel="stylesheet">
 
 </head>
 
@@ -748,23 +751,7 @@
     </div>
   </div>
 
- <!-- Bootstrap core CSS-->
-<link href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
-
-<!-- Custom fonts for this template-->
-<link href="<?php echo base_url('assets/fontawesome-free/css/all.min.css') ?>" rel="stylesheet" type="text/css">
-
-<!-- Page level plugin CSS-->
-<link href="<?php echo base_url('assets/datatables/dataTables.bootstrap4.css') ?>" rel="stylesheet">
-
-<!-- Custom styles for this template-->
-<link href="<?php echo base_url('css/sb-admin.css') ?>" rel="stylesheet">
-
-<!-- ... -->
-<!-- di sini ada kode yang panjang -->
-<!-- ... -->
-
-<!-- Bootstrap core JavaScript-->
+  <!-- Bootstrap core JavaScript-->
 <script src="<?php echo base_url('assets/jquery/jquery.min.js') ?>"></script>
 <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
 
@@ -779,7 +766,6 @@
 <!-- Demo scripts for this page-->
 <script src="<?php echo base_url('js/demo/datatables-demo.js') ?>"></script>
 <script src="<?php echo base_url('js/demo/chart-area-demo.js') ?>"></script>
-
 </body>
 
 </html>
