@@ -14,9 +14,9 @@
 			<th>Pekerjaan</th>
 			<th>Action</th>
 		</tr>
-		<?php 
+		<?php
 		$no = 1;
-		foreach($user as $u){ 
+		foreach($user as $u){
 		?>
 		<tr>
 			<td><?php echo $no++ ?></td>
@@ -30,5 +30,6 @@
 		</tr>
 		<?php } ?>
 	</table>
+	<center><a href="<?php echo base_url('index.php/login/logout'); ?>">Logout</a></center>
 </body>
 </html>
