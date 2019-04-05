@@ -30,5 +30,8 @@
 		</tr>
 		<?php } ?>
 	</table>
+	<center><h3>
+		<a href="<?php echo base_url('index.php/login/logout'); ?>">Logout</a>
+	</h3></center>
 </body>
 </html>
