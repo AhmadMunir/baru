@@ -1,5 +1,5 @@
 <?php
-  class Overview extends CI_Controller{
+  class P_list extends CI_Controller  {
     public function __construct(){
       parent::__construct();
       $this->load->model('product');
@@ -10,8 +10,9 @@
     }
     public function index(){
       $data['tbl_products'] = $this->product->getAll();
-      $this->load->view('admin/overview',$data);
+      $this->load->view('admin/product/list',$data);
 
     }
   }
- ?>
+
+?>

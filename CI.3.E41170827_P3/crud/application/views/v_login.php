@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Membuat Login Dengan CodeIgniter | www.malasngoding.com</title>
+	<title>Monggo Login Dulu</title>
 </head>
 <body>
-	<h1>Membuat Login Dengan CodeIgniter <br/> www.malasngoding.com</h1>
-	<form action="<?php echo base_url('index.php/login/aksi_login'); ?>" method="post">		
+	<h1>Login <br/></h1>
+	<form action="<?php echo base_url('index.php/login/aksi_login'); ?>" method="post">
 		<table>
 			<tr>
 				<td>Username</td>
