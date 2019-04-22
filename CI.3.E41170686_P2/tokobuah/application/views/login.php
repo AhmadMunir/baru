@@ -17,7 +17,7 @@
     <div class="main">
 
         <!-- Sign up form -->
-        <section class="signup">
+<!--         <section class="signup">
             <div class="container">
                 <div class="signup-content">
                     <div class="signup-form">
@@ -55,7 +55,7 @@
                 </div>
             </div>
         </section>
-
+ -->
         <!-- Sing in  Form -->
         <section class="sign-in">
             <div class="container">
