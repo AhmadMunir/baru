@@ -48,5 +48,5 @@ class Produk extends CI_Controller {
 			if ($this->M_produk->delete($id)) {
 				redirect(site_url('admin/produk'));
 				}
-	}
+			}
 }

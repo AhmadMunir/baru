@@ -29,7 +29,7 @@
 
     public function geById($id){
       //ambil by ID
-      return $this->db->get($thhis->_table, ["id_product" => $id])->row();
+      return $this->db->get($this->_table, ["id_product" => $id])->row();
     }
 
     public function save(){
